@@ -1,4 +1,7 @@
 {
+  "engines": {
+    "node":"v20.11.1"
+  },
   "name": "ecommerce",
   "version": "1.0.0",
   "description": "1. Basic setup of project \r 2. create a react project\r 3. create git repository",
