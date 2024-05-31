@@ -17,6 +17,7 @@ const libs = ['places'];
 export default function MapScreen() {
   const { state, dispatch: ctxDispatch } = useContext(Store);
   const { userInfo } = state;
+  console.log(userInfo);
   const navigate = useNavigate();
   const [googleApiKey, setGoogleApiKey] = useState('');
   const [center, setCenter] = useState(defaultLocation);
@@ -55,7 +56,7 @@ export default function MapScreen() {
     ctxDispatch({
       type: 'SET_FULLBOX_ON',
     });
-  }, [ctxDispatch]);
+  }, [ctxDispatch,userInfo.token]);
 
   const onLoad = (map) => {
     mapRef.current = map;
