@@ -1,4 +1,4 @@
-#  MERN Amazona project
+#  MERN MyEcommerceApp 
 
 # Lessons
 1. Basic setup of project 
