@@ -52,10 +52,10 @@ const HomeScreen = () => {
   return (
     <div>
       <Helmet>
-        <title>Amozona</title>
+        <title>MyEcommerceApp</title>
       </Helmet>
       
-      <h1>Featured Products</h1>
+      <h1>All Products</h1>
       <div className="products">
         {loading ? (
           // <div>Loading...</div>
